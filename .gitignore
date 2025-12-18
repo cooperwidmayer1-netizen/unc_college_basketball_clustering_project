@@ -1,0 +1,15 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# mac
+.DS_Store
+
+# data (regenerable; don't commit)
+data/raw/
+data/processed/
+
+# build metadata
+*.egg-info/

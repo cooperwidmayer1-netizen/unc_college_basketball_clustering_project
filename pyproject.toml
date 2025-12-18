@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbb"
+version = "0.1.0"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "reportlab",
+  "sportsdataverse",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
